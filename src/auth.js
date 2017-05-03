@@ -1,7 +1,7 @@
 import Auth0Lock from 'auth0-lock'
 
-const AUTH0_KEY_ADMIN = 'hZNxpTJwVUbLpcgUSQL2CMHg1m2JhD9B'
-const AUTH0_DOMAIN = 'cardash.auth0.com'
+const AUTH0_KEY_ADMIN = ''
+const AUTH0_DOMAIN = ''
 
 const options = {
   auth: {
