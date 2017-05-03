@@ -2,8 +2,20 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import auth from './auth'
+
 class App extends Component {
   render() {
+    if (!localStorage.cd_token) {
+      return (
+        <div>
+          <button onClick={() => auth()}>
+            Log in
+          </button>
+        </div>
+      )
+    }
+
     return (
       <div className="App">
         <div className="App-header">
